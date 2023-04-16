@@ -1,0 +1,1069 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sen', sans-serif; */
+
+/* === BASE HEADING === */ 
+
+.twelve h1 {
+    position: relative;
+    padding: 0;
+    margin: 40px auto 20px auto !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .twelve h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  .twelve h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+.twelve h1 {
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    width:160px;
+    text-align:center;
+    margin:auto;
+    white-space:nowrap;
+    padding-bottom:13px;
+  }
+  .twelve h1:before {
+      background-color: #272727;
+      content: '';
+      display: block;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 5px;
+  }
+  .twelve h1:after {
+      background-color: #272727;
+      content: '';
+      display: block;
+    position:absolute; right:0; bottom:0;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 0.25em;
+  }
+
+
+.twelves h1 {
+    position: relative;
+    padding: 0;
+    margin: 40px auto 20px auto !important;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .twelves h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  .twelve h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+.twelves h1 {
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    width:250px;
+    text-align:center;
+    margin:auto;
+    white-space:nowrap;
+    padding-bottom:13px;
+  }
+  .twelves h1:before {
+      background-color: #272727;
+      content: '';
+      display: block;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 5px;
+  }
+  .twelves h1:after {
+      background-color: #272727;
+      content: '';
+      display: block;
+    position:absolute; right:0; bottom:0;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 0.25em;
+  }
+
+
+.thirten h1 {
+    position: relative;
+    padding: 0;
+    margin: 40px auto 20px auto !important;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .thirten h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  .twelve h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+.thirten h1 {
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    width:273px;
+    text-align:center;
+    margin:auto;
+    white-space:nowrap;
+    padding-bottom:13px;
+  }
+  .thirten h1:before {
+      background-color: #272727;
+      content: '';
+      display: block;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 5px;
+  }
+  .thirten h1:after {
+      background-color: #272727;
+      content: '';
+      display: block;
+    position:absolute; right:0; bottom:0;
+      height: 3px;
+      width: 75px;
+      margin-bottom: 0.25em;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ============= NABAR START HERE =============== */
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.09);
+    top: 0;
+    right: 0;
+}
+
+#header a div{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#header .log{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#header a div img{
+    width: 100%;
+    transform: scale(1.3);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px !important;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    transition: 0.3s;
+}
+#navbar li:hover {
+    transform: scale(0.93);
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    transition: 0.4s;
+}
+
+#header a{
+
+    text-decoration: none;
+    color: #222;
+    font-weight: 800;
+    font-family: Poppins;
+}
+
+/* #navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #222;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+} */
+
+#mobile{
+    display: none;
+    align-items: center;
+}
+
+#close{
+    display: none;
+}
+
+/* ============ NABAR END HERE =============== */
+
+
+/* ============ BANNER START HERE =============== */
+
+  .banner{
+    background-image: url("images/ban.jpg");
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+}
+.banner h1{
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-bottom: 13px !important;
+    text-align: center;
+}
+.banner h5{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 13px !important;
+    font-family: Poppins;
+}
+.banner p{
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    margin-bottom: 29px;
+}
+.buttons{
+    text-align: center;
+}
+.buttons button{
+    border: 2px solid transparent;
+    background-color: rgba(5, 19, 24, 0.259);
+    color: #fff;
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px 13px;
+    font-family: Poppins;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+}
+.buttons button:hover{
+    border: 2px solid #ffffff;
+    background-color: #27272776;
+    color: #fff;
+}
+
+/* ============ BANNER END HERE =============== */
+
+
+/* ============ ABOUT START HERE =============== */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h4{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Raleway;
+    margin-top: 30px;
+    color: #5b5b5b;
+}
+h4 span{
+    color: #000000 !important;
+    font-weight: 600;
+}
+.about p{
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 15px;
+}
+.container .about{
+    width: 48%;
+}
+.icon_S{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.icon_S a{
+    text-decoration: none;
+}
+.icon_S i{
+    width: 35px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50%;
+    color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.4s;
+}
+.icon_S i:hover{
+    color: rgb(17, 17, 17);
+    transform: scale(1.1);
+}
+.experties h5{
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.progress{
+    height: 14px;
+    background-color: #bebebe76;
+}
+.progress-bar{
+    background-color: #272727;
+    font-size: 11px;
+    font-family: Raleway;
+    font-weight: 300 !important;
+}
+.container .about2{
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #2c2c2c15;
+    margin: 10px 0px;
+    transition: 0.3s;
+}
+.container .about2:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.about2 h4{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Raleway;
+    margin-top: 0px;
+    color: #5b5b5b;
+}
+table th{
+    padding: 10px 0px !important;
+}
+table tr th:nth-child(1){
+    width: 40%;
+    font-family: Raleway;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+}
+table tr th:nth-child(2){
+    width: 60%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    border-bottom: 1px solid #22222259;
+    color: #222;
+}
+table tr:nth-child(4) th:nth-child(2){
+    border-bottom: none !important;
+}
+
+/* ============ ABOUT END HERE =============== */
+
+
+/* ============ SERVICES START HERE =============== */
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.serv{
+    margin-top: 10px;
+    width: 330px;
+    background-color: rgb(255, 255, 255);
+    padding: 18px;
+    border-radius: 4x;
+    text-align: center;
+    border: 2px solid #2c2c2c15;
+    transition: all 0.2s ease-in-out;
+}
+.serv:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.serv i{
+    color: black;
+    font-size: 35px;
+    margin: 18px 0px 12px 0px;
+    transition: all 0.2s ease-in-out;
+}
+.serv h3{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-family: Comfortaa;
+}
+.serv p{
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+/* ============ SERVICES END HERE =============== */
+
+
+/* ============ PORTFOLIO START HERE =============== */
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+.port{
+    width: 330px;
+    /* height: 400px; */
+    padding: 14px 10px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #2c2c2c15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.port:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.portfolio img{
+    width: 95%;
+    height: 350px !important;
+}
+.portfolio a{
+    padding: 3px 10px;
+    width: 120px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #27272776;
+    color: #000;
+    font-family: Sen;
+    margin-top: 10px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.portfolio a:hover{
+    border: 1px solid #27272776 !important;
+    background-color: #222;
+    color: rgb(255, 255, 255);
+}
+
+/* ============ PORTFOLIO END HERE =============== */
+
+
+/* ============ COUNTER START HERE =============== */
+
+.backimg{
+    background: linear-gradient(rgba(0, 0, 0,0.8), rgba(0,0,0,0.6)), url("images/cover_2_x1-2.jpg");
+    width: 100%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.count{
+    width: 190px;
+    text-align: center;
+    cursor: pointer;
+}
+.count i,
+.count h6{
+    color: #fff;
+    display: inline;
+    font-size: 20px;
+}
+.count p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.count p span{
+    font-weight: 400;
+}
+
+/* ============ COUNTER END HERE =============== */
+
+
+/* ============ CONTACT START HERE =============== */
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+#contact_sec h4{
+    margin-bottom: 18px;
+}
+.icons i{
+    width: 35px;
+    height: 35px;
+    background-color: #222;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.icons p{
+    margin: 10px 16px;
+}
+form input:focus{
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+form textarea:focus{
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+form input{
+    border: none;
+    margin-bottom: 12px;
+    font-family: Poppins;
+    padding: 6px 8px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+form textarea{
+    border: none;
+    font-family: Poppins;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 150px;
+    font-family: Poppins;
+    padding: 6px 8px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+form a{
+    padding: 6px 10px;
+    /* width: 120px; */
+    /* text-align: center; */
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #27272776;
+    color: #000;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+form a:hover{
+    border: 1px solid #27272776 !important;
+    background-color: #222;
+    color: rgb(255, 255, 255);
+}
+
+/* ============ CONTACT END HERE =============== */
+
+
+/* ============ FOOTER START HERE =============== */
+
+footer{
+    background-color: #272727;
+    width: 100%;
+    padding: 50px 0 10px 0;
+    margin-top: 40px;
+}
+.fot-icon a{
+    text-decoration: none;
+}
+.fot-icon{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+footer .fot-icon i{
+    width: 35px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.5s;
+}
+.fot-icon i:hover{
+    background-color: #fff;
+    color: #222;
+}
+footer p{
+    font-size: 13px;
+    color: #a2a2a2;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 300;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+footer p span a{
+    color: rgb(232, 232, 232);
+    text-decoration: none;
+}
+
+/* ============ FOOTER END HERE =============== */
+
+
+/* ========================== Media Qurey Start Here ================================ */
+
+@media (max-width:1200px) {
+    .serv{
+        width: 300px;
+    }
+    .port{
+        width: 270px;
+    }
+    .port img{
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 780px){
+    #navbar{
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 230px;
+        background-color: #d5dcff;
+        box-shadow: 0 50px 60px rgba(0, 0, 0, 0.1);
+        padding: 30px 0 0 10px;
+        transition: 0.4s;
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #close{
+        display: initial;
+        color: #222;
+        font-size: 20px;
+    }
+
+    .banner{
+        height: 50vh;
+    }
+
+    .main .about{
+        width: 100%;
+    }
+    .main .about2{
+        width: 100%;
+    }
+    table tr{
+        display: flex;
+        justify-content: space-between;
+    }
+    table tr th:nth-child(1){
+        width: 30%;
+        font-size: 14px;
+    }
+    
+    table tr th:nth-child(2){
+        width: 65%;
+        font-size: 12px;
+    }
+
+    .main #contact3{
+        width: 100%;
+    }
+
+    footer{
+        background-color: #272727;
+        width: 100%;
+        padding: 30px 0 6px 0;
+        margin-top: 20px;
+    }
+    footer p{
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .serv{
+        margin-top: 10px;
+        width: 250px;
+        text-align: center;
+    }  
+    .port{
+        width: 220px;
+    }
+    .port img{
+        height: 260px !important;
+    }
+
+    .count{
+        width: 140px;
+    }
+
+    .count i,
+.count h6{
+    color: #fff;
+    display: inline;
+    font-size: 16px;
+}
+.count p{
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+}
+
+@media (max-width:560px){
+    .backimg{
+        height: 40vh;
+    }
+    .count{
+        width: 50%;
+    }
+    .heading h1
+    {
+        font-size: 22px !important;
+    }
+
+    .twelve h1 {
+        margin: 30px auto 16px auto !important;
+
+        font-size: 22px !important;
+        width:120px;
+
+      }
+      .twelve h1:before {
+          width: 40px;
+      }
+      .twelve h1:after {
+          width: 40px;
+      }
+
+      .twelves h1 {
+        margin: 30px auto 16px auto !important;
+        font-size: 22px !important;
+        width:205px;
+
+      }
+      .twelves h1:before {
+          width: 50px;
+      }
+      .twelves h1:after {
+          width: 50px;
+      }
+      .thirten h1 {
+        margin: 30px auto 16px auto !important;
+        font-size: 22px !important;
+        width:205px;
+
+      }
+      .thirten h1:before {
+          width: 50px;
+      }
+      .thirten h1:after {
+          width: 50px;
+      }
+
+      h4{
+        font-size: 15px;
+    }
+
+    .about2 h4{
+        font-size: 15px;
+    }
+
+    .experties h5{
+        font-size: 12px;
+    }
+    .progress{
+        height: 12px;
+    }
+    .progress-bar{
+        font-size: 10px;
+    }
+    .serv h3{
+        font-size: 15px;
+    }
+    .serv p{
+        font-size: 13px;
+    }
+
+    footer .fot-icon i{
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
+    footer .fot-icon{
+        gap: 2px;
+    }
+    footer p{
+        font-size: 12px;
+        margin-top: 6px;
+    }
+}
+
+@media (max-width:525px){
+    .serv{
+        width: 90%;
+    }
+    form input{
+        font-size: 14px;
+    }
+    form textarea{
+        font-size: 14px;
+    }
+    .about p{
+        font-family: Poppins;
+        font-size: 13px;
+    }
+    .banner h1{
+        font-size: 24px;
+        margin-bottom: 13px !important;
+    }
+    .banner h5{
+        margin-bottom: 13px !important;
+        font-size: 20px;
+    }
+    .banner p{
+        margin-bottom: 18px;
+        font-size: 14px;
+    }
+    .buttons button{
+        margin: 2px 4px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 504px){
+    #header{
+        padding: 10px 20px;
+    }
+    .buttons a{
+        font-size: 13px;
+    }
+
+    table tr th:nth-child(1){
+        width: 35%;
+        font-size: 12px;
+    }
+    
+    table tr th:nth-child(2){
+        width: 60%;
+        font-size: 11px;
+    }
+    .port{
+        width: 180px;
+        /* height: 240px; */
+    }
+    .port img{
+        height: 220px !important;
+    }
+    .port a{
+        font-size: 12px;
+    }
+    #header a div{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #header a div img{
+        transform: scale(1.3);
+    }
+    #header a{
+        font-size: 14px;
+        font-family: Poppins;
+    }
+    
+}
+
+@media (max-width:423px){
+    .port{
+        width: 230px;
+    }
+    .serv{
+        width: 100%;
+    }
+    .icons p{
+        font-size: 14px;
+        margin: 10px 0px 10px 8px;
+    }
+    .icons i{
+        font-size: 12px;
+        width: 28px;
+        height: 28px;
+    }
+    .about2{
+        padding: 0px;
+    }
+    form input{
+        font-size: 13px;
+    }
+    form textarea{
+        font-size: 13px;
+    }
+    form a{
+        font-size: 11px;
+    }
+    .twelve h1 {
+        margin: 20px auto -10px auto !important;
+        font-size: 19px !important;
+        width:110px;
+
+      }
+      .twelve h1:before {
+          width: 40px;
+      }
+      .twelve h1:after {
+          width: 40px;
+      }
+      .twelves h1 {
+        margin: 24px auto !important;
+        font-size: 19px !important;
+        width:180px;
+
+      }
+      .twelves h1:before {
+          width: 50px;
+      }
+      .twelves h1:after {
+          width: 50px;
+      }
+      .thirten h1 {
+        margin: 24px auto !important;
+        font-size: 19px !important;
+        width:200px;
+
+      }
+      .thirten h1:before {
+          width: 50px;
+      }
+      .thirten h1:after {
+          width: 50px;
+      }
+      .banner p{
+        margin-bottom: 12px;
+    }
+    .buttons button{
+        margin: 0px 4px;
+        font-size: 13px;
+    }
+    footer{
+        background-color: #272727;
+        width: 100%;
+        padding: 30px 0 5px 0;
+        margin-top: 10px;
+    }
+}
+
+
+/* ========================== Media Qurey End Here ================================ */
