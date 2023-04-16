@@ -836,7 +836,6 @@ footer p span a{
     {
         font-size: 22px !important;
     }
-
     .twelve h1 {
         margin: 30px auto 16px auto !important;
 
@@ -850,7 +849,6 @@ footer p span a{
       .twelve h1:after {
           width: 40px;
       }
-
       .twelves h1 {
         margin: 30px auto 16px auto !important;
         font-size: 22px !important;
@@ -875,15 +873,12 @@ footer p span a{
       .thirten h1:after {
           width: 50px;
       }
-
       h4{
         font-size: 15px;
     }
-
     .about2 h4{
         font-size: 15px;
     }
-
     .experties h5{
         font-size: 12px;
     }
@@ -944,6 +939,10 @@ footer p span a{
         margin: 2px 4px;
         font-size: 13px;
     }
+    .serv i{
+        font-size: 30px;
+        margin: 8px 0px 10px 0px;
+    }
 }
 
 @media (max-width: 504px){
@@ -990,6 +989,16 @@ footer p span a{
         margin-top: 12px;
         font-size: 10px;
     }
+    .backimg{
+        height: 25vh;
+    }
+    .count i,
+    .count h6{
+        font-size: 14px;
+    }
+    .count p{
+        font-size: 11px;
+    }
 }
 
 @media (max-width:423px){
@@ -1001,7 +1010,10 @@ footer p span a{
         height: 160px !important;
     }
     .serv{
-        width: 100%;
+        width: 280px;
+    }
+    .services{
+        margin-top: 16px;
     }
     .icons p{
         font-size: 14px;
@@ -1072,6 +1084,12 @@ footer p span a{
         width: 100%;
         padding: 30px 0 5px 0;
         margin-top: 10px;
+    }
+    .serv h3{
+        font-size: 14px;
+    }
+    .serv p{
+        font-size: 11px;
     }
 }
 
