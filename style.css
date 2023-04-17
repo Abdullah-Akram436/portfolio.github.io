@@ -985,13 +985,13 @@ footer p span a{
     }
     .filter ul{
         display: flex;
-        /* align-items: center;
-        justify-content: center; */
-        flex-wrap: wrap !important;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .filter ul li{
         font-size: 11px;
-        padding: 2px 7px;
+        padding: 2px 9px;
         margin: 3px;
     }
     table tr th:nth-child(1){
