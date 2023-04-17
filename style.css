@@ -1009,9 +1009,6 @@ footer p span a{
     .port img{
         height: 220px !important;
     }
-    .port a{
-        font-size: 12px;
-    }
     #header a div{
         width: 30px;
         height: 30px;
@@ -1050,7 +1047,11 @@ footer p span a{
         width: 95%;
         height: 160px !important;
     }
-  
+    .port a{
+        font-size: 9px;
+        padding: 2px 4px;
+        width: 63px;
+    }
     .services{
         margin-top: 16px;
     }
