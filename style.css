@@ -506,6 +506,7 @@ table tr:nth-child(4) th:nth-child(2){
     background: #eee;
     font-family: Poppins;
     padding: 4px 15px;
+    font-size: 14px;
     margin: 5px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -827,7 +828,15 @@ footer p span a{
     .port img{
         height: 260px !important;
     }
-
+    .filter ul{
+        margin-bottom: 12px;
+    }
+    .filter ul li{
+        font-size: 12px;
+        padding: 4px 10px;
+        margin: 2px;
+        letter-spacing: 0px;
+    }
     .count{
         width: 140px;
     }
@@ -974,7 +983,17 @@ footer p span a{
     .buttons a{
         font-size: 13px;
     }
-
+    .filter ul{
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        flex-wrap: wrap !important;
+    }
+    .filter ul li{
+        font-size: 11px;
+        padding: 2px 7px;
+        margin: 3px;
+    }
     table tr th:nth-child(1){
         width: 35%;
         font-size: 12px;
