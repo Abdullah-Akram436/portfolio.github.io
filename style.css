@@ -492,6 +492,28 @@ table tr:nth-child(4) th:nth-child(2){
     gap: 15px;
     margin-bottom: 60px;
 }
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+.filter ul li{
+    list-style: none;
+    background: #eee;
+    font-family: Poppins;
+    padding: 4px 15px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.filter ul li.active{
+    background: #222;
+    color: #fff;
+}
 .port{
     width: 330px;
     padding: 14px 10px;
